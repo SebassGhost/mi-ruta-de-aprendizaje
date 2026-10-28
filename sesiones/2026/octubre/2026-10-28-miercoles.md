@@ -7,7 +7,7 @@
 
 - [x] Practicar arreglos y objetos en JavaScript.
 - [x] Crear funciones que recorran arreglos.
-- [ ] Aprender cinco términos de inglés técnico.
+- [x] Aprender cinco términos de inglés técnico.
 
 ## 2. Investigación
 
@@ -52,8 +52,8 @@ También aprendí que la ubicación del if/else influye en cuántas veces se eje
 ## 5. Otros bloques
 
 - SQL / PostgreSQL: Practiqué consultas SELECT, ademas de repasos y documentacion teorica
-- Python:
-- Inglés:
+- Python: practiqué teoria sobre la estructura de datos
+- Inglés: practiqué vocabulario
 - Ciberseguridad: No estudié este bloque hoy.
 
 ## 6. Cierre del día
@@ -68,6 +68,6 @@ También aprendí que la ubicación del if/else influye en cuántas veces se eje
 
 ## 7. Estado
 
-- [ ] Sesión completada
-- [ ] Notas actualizadas
-- [ ] Próxima sesión preparada
+- [x] Sesión completada
+- [x] Notas actualizadas
+- [x] Próxima sesión preparada
