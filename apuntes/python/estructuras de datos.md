@@ -5,31 +5,33 @@ Las estructuras y tipos de datos en Python se dividen principalmente en valores 
 
 ## 1. Tipos Primitivos / Inmutables
 
-• bool: Representa un valor lógico (True o False). (Nota: En Python van con mayúscula inicial).
-• NoneType: Ausencia intencional de cualquier valor (None). Equivalente a null de JS.
-• (En Python no existe undefined; si una variable no tiene valor asignado, simplemente no existe).
-• int: Números enteros de precisión arbitraria (Python maneja magnitudes grandes automáticamente, por lo que int cumple la función tanto de Number como de BigInt de JS).
-• float: Números de punto flotante.
-• str: Cadenas de caracteres de texto.
-• (Python no cuenta con un tipo Symbol nativo de la misma manera que JS).
+- bool: Representa un valor lógico (True o False). (Nota: En Python van con mayúscula inicial).
+- NoneType: Ausencia intencional de cualquier valor (None). Equivalente a null de JS.
+- (En Python no existe undefined; si una variable no tiene valor asignado, simplemente no existe).
+- int: Números enteros de precisión arbitraria (Python maneja magnitudes grandes automáticamente, por lo que int cumple la función tanto de Number como de BigInt de JS).
+- float: Números de punto flotante.
+- str: Cadenas de caracteres de texto.
+- (Python no cuenta con un tipo Symbol nativo de la misma manera que JS).
 
 ## 2. Estructuras de Datos Nativas (Objetos y Colecciones)
 
 En Python, casi todo es un objeto. Las estructuras integradas principales son:
-• dict (Diccionario): Colección indexada de pares clave-valor. Mantiene el orden de inserción y funciona como una tabla hash.
-• list (Lista): Lista ordenada e indexada (desde el índice 0) dinámica. Se pueden usar como Pilas o Colas mediante métodos como append() y pop().
-• set (Conjunto): Colección no ordenada de valores únicos (sin elementos duplicados).
-• frozenset: Variante inmutable de un set.
-• bytes / bytearray: Diseñadas para manipular datos binarios de forma eficiente (similares a los TypedArrays de JS).
+
+- dict (Diccionario): Colección indexada de pares clave-valor. Mantiene el orden de inserción y funciona como una tabla hash.
+- list (Lista): Lista ordenada e indexada (desde el índice 0) dinámica. Se pueden usar como Pilas o Colas mediante métodos como append() y pop().
+- set (Conjunto): Colección no ordenada de valores únicos (sin elementos duplicados).
+- frozenset: Variante inmutable de un set.
+- bytes / bytearray: Diseñadas para manipular datos binarios de forma eficiente (similares a los TypedArrays de JS).
 
 ## 3. Estructuras de Datos Avanzadas (Implementación personalizada o por módulos)
 
 Python incluye el módulo nativo collections para optimizar estructuras como colas, pero también se pueden construir de forma lógica mediante clases:
-• Pila (Stack): Estructura LIFO (Last In, First Out).
-• Cola (Queue): Estructura FIFO (First In, First Out).
-• Lista enlazada (Linked List): Nodos secuenciales donde cada elemento apunta al siguiente.
-• Árbol (Tree) y Montón (Heap): Estructuras jerárquicas. Python ofrece el módulo heapq de forma nativa para montones/colas de prioridad.
-• Grafo (Graph): Redes de nodos conectados por aristas.
+
+- Pila (Stack): Estructura LIFO (Last In, First Out).
+- Cola (Queue): Estructura FIFO (First In, First Out).
+- Lista enlazada (Linked List): Nodos secuenciales donde cada elemento apunta al siguiente.
+- Árbol (Tree) y Montón (Heap): Estructuras jerárquicas. Python ofrece el módulo heapq de forma nativa para montones/colas de prioridad.
+- Grafo (Graph): Redes de nodos conectados por aristas.
 
 ## La implementación en código de las tres estructuras más comunes utilizando Clases de Python
 
