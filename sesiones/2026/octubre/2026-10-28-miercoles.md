@@ -5,8 +5,8 @@
 
 ## 1. Objetivos del día
 
-- [ ] Practicar arreglos y objetos en JavaScript.
-- [ ] Crear funciones que recorran arreglos.
+- [x] Practicar arreglos y objetos en JavaScript.
+- [x] Crear funciones que recorran arreglos.
 - [ ] Aprender cinco términos de inglés técnico.
 
 ## 2. Investigación
@@ -51,20 +51,20 @@ También aprendí que la ubicación del if/else influye en cuántas veces se eje
 
 ## 5. Otros bloques
 
-- SQL / PostgreSQL:
+- SQL / PostgreSQL: Practiqué consultas SELECT, ademas de repasos y documentacion teorica
 - Python:
 - Inglés:
-- Ciberseguridad:
+- Ciberseguridad: No estudié este bloque hoy.
 
 ## 6. Cierre del día
 
-**Lo que aprendí:**
+**Lo que aprendí:** Puedo acceder a propiedades de objetos almacenados en un arreglo.
 
-**Lo que todavía necesito practicar:**
+**Lo que todavía necesito practicar:** Contar elementos que cumplan una condición.
 
-**Qué pude hacer sin ayuda:**
+**Qué pude hacer sin ayuda:** Crear el arreglo y recorrerlo para mostrar los numeros.
 
-**Objetivo para la siguiente sesión:**
+**Objetivo para la siguiente sesión:** Practicar funciones que recorran arreglos de objetos.
 
 ## 7. Estado
 
