@@ -160,7 +160,7 @@ class ListaEnlazada {
     let actual = this.cabeza;
     let resultado = "";
     while (actual) {
-      resultado += `${actual.valor} -> `;
+      resultado += `${actual.valor} ->`;
       actual = actual.siguiente;
     }
     console.log(resultado + "null");
