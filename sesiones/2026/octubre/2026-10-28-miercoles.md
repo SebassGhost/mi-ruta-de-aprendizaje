@@ -27,19 +27,27 @@
 
 ## 3. Práctica
 
-**Ejercicio realizado:**
+*Ejercicio realizado:*
+Recorrer un arreglo de numeros y mostrar si la coantidad era mayor o menor a 5
 
-**Mi razonamiento:**
+*Mi razonamiento:*
+Necesito recorrer cada posición del arreglo con un ciclo. En cada vuelta puedo acceder a un numero del objeto mediante su propiedad.
 
-**Resultado obtenido:**
+*Resultado obtenido:*
+Conseguí mostrar la cantidad de los numeros en la consola.
 
 ## 4. Errores y correcciones
 
-**Error:**
+*Error:*
+Al principio, intenté comparar el arreglo numeros directamente con su longitud. También coloqué el if/else dentro del ciclo for, lo que provocaba que el mensaje se repitiera varias veces
 
-**Causa:**
+*Causa:*
+Confundí el arreglo completo con la cantidad de elementos que contiene y todavía no tenía claro cuándo era necesario utilizar un ciclo para resolver un problema.
 
-**Solución y aprendizaje:**
+*Solución y aprendizaje:*
+Aprendí que numeros.length devuelve la cantidad de elementos de un arreglo. Para comprobar si esa cantidad es menor o igual a cinco, puedo utilizar numeros.length <= 5 dentro de un if/else, sin necesidad de recorrer el arreglo con un ciclo for.
+
+También aprendí que la ubicación del if/else influye en cuántas veces se ejecuta: si está dentro de un ciclo, puede repetirse en cada iteración; si está fuera, se ejecuta una sola vez en este caso.
 
 ## 5. Otros bloques
 

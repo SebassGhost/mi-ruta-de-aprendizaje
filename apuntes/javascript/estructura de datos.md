@@ -75,7 +75,6 @@ historialNavegacion.push("github.com");
 console.log(historialNavegacion.peek()); // Resultado: "github.com"
 console.log(historialNavegacion.pop());  // Resultado: "github.com" (se elimina)
 console.log(historialNavegacion.peek()); // Resultado: "google.com"
-Usa el código con precaución.
 
 ### 2. Cola (Queue) - FIFO (First In, First Out)
 
@@ -116,7 +115,6 @@ filaImpresion.enqueue("Foto.png");
 console.log(filaImpresion.front());   // Resultado: "Documento_1.pdf"
 console.log(filaImpresion.dequeue()); // Resultado: "Documento_1.pdf" (se imprime y elimina)
 console.log(filaImpresion.front());   // Resultado: "Foto.png"
-Usa el código con precaución.
 
 ### 3. Lista Enlazada Simple (Linked List)
 
