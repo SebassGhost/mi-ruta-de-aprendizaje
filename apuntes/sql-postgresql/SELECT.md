@@ -51,8 +51,10 @@ Además de traer todo, el comando SELECT es muy flexible y te permite filtrar o 
 - Filtrar filas con WHERE: Si solo quisieras ver a los usuarios que tienen el rol de "lector", usarías SELECT *FROM usuarios WHERE rol = 'lector';.
 - Ordenar los datos con ORDER BY: En tu ejemplo, los IDs están desordenados (2, 3, 4, 5, 1). Podrías ordenarlos de forma ascendente con SELECT* FROM usuarios ORDER BY id ASC;.
 
-*ejemplo de el resultado de la tabla libros:*[
+*ejemplo de el resultado de la tabla libros:*
 
+```json
+[
   {
     "id": 1,
     "titulo": "Cien años de soledad",
@@ -74,6 +76,7 @@ Además de traer todo, el comando SELECT es muy flexible y te permite filtrar o 
     "cantidad_sin_asignar": null
   }
 ]
+```
 
 Este archivo JSON representa el resultado de hacer un SELECT * FROM libros; en el sistema. Así como la tabla anterior guardaba las personas de la plataforma, esta tabla sirve para gestionar el inventario de libros disponibles en la biblioteca
 
