@@ -1,5 +1,5 @@
 
-# Sesión — [28, miercoles]
+# Sesión — [miercoles, 28 de octubre de 2026 ]
 
 **Horario:** 7:00 a. m. – 12:00 p. m.
 
