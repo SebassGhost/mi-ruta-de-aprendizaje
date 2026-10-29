@@ -8,6 +8,7 @@ SELECT * FROM usuarios;
 
 El asterisco (*) indica que quieres ver todas las columnas disponibles. Al ejecutar ese comando, el sistema te devolvería exactamente la lista de usuarios que compartiste:
 
+```json
 [
   {
     "id": 2,
@@ -40,6 +41,7 @@ El asterisco (*) indica que quieres ver todas las columnas disponibles. Al ejecu
     "rol": "administrador"
   }
 ]
+```
 
 ## ¿Qué más puedes hacer con SELECT?
 
