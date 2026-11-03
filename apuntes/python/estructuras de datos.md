@@ -39,6 +39,7 @@ Python incluye el módulo nativo collections para optimizar estructuras como col
 
 Los elementos se apilan uno sobre otro. El último en entrar es el primero en salir.
 
+```python
 class Pila:
     def __init__(self):
         self.elementos = []
@@ -62,6 +63,7 @@ class Pila:
     # Obtener el tamaño de la pila
     def size(self):
         return len(self.elementos)
+```
 
 ## Ejemplo de uso
 
@@ -76,6 +78,7 @@ print(historial_navegacion.peek())  # Resultado: "google.com"
 
 El primer elemento en llegar es el primer en ser atendido. Nota: En Python, usar pop(0) en una lista tradicional es lento. Para una cola real en producción se usa collections.deque, pero aquí se traduce la lógica exacta usando listas básicas tal como el ejemplo original de JS:
 
+```python
 class Cola:
     def __init__(self):
         self.elementos = []
@@ -99,15 +102,18 @@ class Cola:
     # Verificar si está vacía
     def is_empty(self):
         return len(self.elementos) == 0
+```
 
 ### Ejemplo
 
+```python
 fila_impresion = Cola()
 fila_impresion.enqueue("Documento_1.pdf")
 fila_impresion.enqueue("Foto.png")
 print(fila_impresion.front())    # Resultado: "Documento_1.pdf"
 print(fila_impresion.dequeue())  # Resultado: "Documento_1.pdf" (se imprime y elimina)
 print(fila_impresion.front())    # Resultado: "Foto.png"
+```
 
 ## 3. Lista Enlazada Simple (Linked List)
 
@@ -122,6 +128,7 @@ class Nodo:
 
 ## Estructura de la Lista
 
+```python
 class ListaEnlazada:
     def __init__(self):
         self.cabeza = None  # Primer elemento de la lista
@@ -149,11 +156,14 @@ class ListaEnlazada:
             resultado += f"{actual.valor} -> "
             actual = actual.siguiente
         print(resultado + "None")
+```
 
 ### forma de uso
 
+```python
 lista_contactos = ListaEnlazada()
 lista_contactos.agregar("Ana")
 lista_contactos.agregar("Carlos")
 lista_contactos.agregar("Diana")
 lista_contactos.mostrar_lista()  # Resultado: Ana -> Carlos -> Diana -> None
+```

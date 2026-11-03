@@ -31,12 +31,16 @@ PostgreSQL permite usar funciones de agregación avanzadas y manipulación direc
 • Alias rápido y concatenación: Puedes usar || para unir textos y AS para renombrar columnas.
 • Manejo de fechas: PostgreSQL tiene un excelente motor de tiempos. Puedes usar CURRENT_DATE o extraer partes de una fecha.
 • Ejemplo:sql
+
+```sql
 SELECT
     id,
     nombre || ' ' || apellido AS nombre_completo,
     AGE(fecha_nacimiento) AS edad_exacta
 FROM clientes;
-2. Filtrado potente con WHERE
+```
+
+2.Filtrado potente con WHERE
 
 Además de los filtros comunes, PostgreSQL brilla por su capacidad de búsqueda de texto y operadores especiales:
 • ILIKE: A diferencia de LIKE, ILIKE realiza búsquedas que no distinguen entre mayúsculas y minúsculas (case-insensitive), ideal para búsquedas de usuarios.
