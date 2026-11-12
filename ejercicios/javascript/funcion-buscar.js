@@ -23,5 +23,17 @@ let encontrado = false;
     }
 }
 
+console.log("========== PRIMERA BUSQUEDA ==========");
+
 buscarLibro(libros, "Don Quijote");
 buscarLibro(libros, "Harry Potter");
+
+
+function buscarLibroFind(libros, tituloBuscado) {               // se agrego esta funcion en la cual se usa find() para buscar un libro
+const resultado = libros.find(libro => libro.titulo === tituloBuscado);
+return resultado;
+}
+console.log("========== SEGUNDA BUSQUEDA ==========");
+
+console.log(buscarLibroFind(libros, "Don Quijote"));
+console.log(buscarLibroFind(libros, "Harry Potter"));
